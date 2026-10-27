@@ -18,30 +18,17 @@ export default function Header({ onOpenCheckIn, waitMinutes }: HeaderProps) {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
           
-          {/* Logo & Brand */}
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative w-11 h-11 bg-white rounded-xl shadow-xs border border-slate-200/80 p-1 group-hover:border-blue-300 transition-colors">
+          {/* Logo Icon Only (Prominent & Clean, No HTML Text) */}
+          <Link href="/" className="flex items-center group py-1" aria-label="SwiftMed Urgent Care">
+            <div className="relative w-14 h-14 sm:w-16 sm:h-16 flex-shrink-0 transition-transform duration-200 group-hover:scale-105">
               <Image
-                src="/assets/swift-med-logo-400.png"
-                alt="SwiftMed Urgent Care"
-                width={44}
-                height={44}
+                src="/assets/swift-med-icon.png"
+                alt="SwiftMed Urgent Care Logo"
+                width={64}
+                height={64}
                 className="w-full h-full object-contain"
                 priority
               />
-            </div>
-            <div>
-              <div className="flex items-center gap-1.5">
-                <span className="font-display font-extrabold text-2xl tracking-tight text-brand-navy">
-                  SwiftMed
-                </span>
-                <span className="text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-blue-50 text-brand-blue border border-blue-200">
-                  Urgent Care
-                </span>
-              </div>
-              <p className="text-[11px] font-medium text-slate-500">
-                Outpatient Clinic • Elkridge, MD
-              </p>
             </div>
           </Link>
 

@@ -9,12 +9,12 @@ export default function Footer() {
         {/* Top Row: Brand & Quick Links */}
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 pb-6 border-b border-slate-800">
           <div className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-xl bg-white p-1">
+            <div className="w-11 h-11 flex-shrink-0">
               <Image
-                src="/assets/swift-med-logo-400.png"
+                src="/assets/swift-med-icon.png"
                 alt="SwiftMed Logo"
-                width={36}
-                height={36}
+                width={44}
+                height={44}
                 className="w-full h-full object-contain"
               />
             </div>

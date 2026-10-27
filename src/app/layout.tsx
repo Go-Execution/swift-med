@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     'IV hydration Howard County',
   ],
   icons: {
-    icon: '/assets/favicon.png',
+    icon: '/assets/swift-med-icon-128.png',
   },
 };
 
