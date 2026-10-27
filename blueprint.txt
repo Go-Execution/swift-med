@@ -1,0 +1,246 @@
+SwiftMed Urgent Care – Website Content Blueprint
+1. Brand foundation
+Name: SwiftMed Urgent Care (SwiftMed Urgent Care + Outpatient Clinic as descriptor)
+Tagline: Care When You Need It. Quality You Can Trust.
+Alternate hero line: The waiting room is optional.
+Mission: To deliver accessible, high-quality urgent medical care to every member of the Elkridge and greater Howard County community, with the speed, dignity and clinical excellence our neighbors deserve.
+Vision: To become the most trusted urgent care brand in the Baltimore–Washington corridor, recognized for clinical outcomes, patient experience and community partnership.
+Positioning: Faster than the ER, more capable than a retail clinic, more convenient than waiting for your primary care appointment. A physician-led, full-scope urgent care built around your time.
+Voice: Warm, confident, plain-spoken. Short sentences. No jargon. Respectful of people’s time. Never fear-based.
+Core facts
+Address: 6244 Washington Blvd, Elkridge, MD 21075 (Howard County, Washington Blvd / Route 1 corridor)
+Hours: Mon–Fri 8 AM–8 PM; Sat–Sun 9 AM–5 PM (confirm weekday opening)
+Opening: Q1 2027
+Facility: physician-led, 5 exam rooms, procedure room, digital X-ray, on-site lab, occupational health room, IV infusion area
+Languages: English, Spanish, Hindi, French (Amharic and Tagalog planned)
+Visual identity notes: The logo uses heart-shaped petals in blue, green and orange, a red medical cross and a gold caduceus. Lead with a clean white background and blue as the primary color. Use green and orange sparingly as accents, and keep red for emergency and alert elements only. Calm, neutral photography of the clinic, staff and neighborhood; no stock-photo hospital hallways.
+2. Site map
+Home
+Services (with sub-pages for Illness & Injury, X-Ray & Lab, Ultrasound, IV Hydration, Chronic Condition Care, Physicals & Vaccines, Telehealth)
+Check In / Live Wait Time
+The SwiftMed Difference
+Membership
+Family Visits
+SwiftMed Business (employers)
+Sports Physicals
+Insurance & Pricing
+Languages & Community
+About Us / Our Providers
+Health Library (blog)
+Careers
+Contact & Directions
+FAQ
+Legal (Privacy, HIPAA Notice, Terms, Accessibility, Nondiscrimination)
+Persistent header: Logo · Services · Check In · Membership · SwiftMed Business · Locations · Check In Now (button) · Phone
+Persistent elements: live wait-time badge, click-to-call, 911 notice in the footer, language selector.
+3. Page content
+3.1 Home
+Hero headline: Skip the waiting room.
+Subhead: Check in from your car, your couch or the coffee shop next door. We’ll text you when your room is ready. Walk-ins welcome, no appointment needed.
+Buttons: Check In Now · See Wait Time · Call
+Live wait widget (above the fold): Current wait: [__] min · Updated every 10 minutes
+Trust bar: Physician-led · Digital X-ray and lab on site · Ultrasound · Open evenings and weekends · Spanish, Hindi and French spoken
+Why SwiftMed (six tiles)
+No waiting-room limbo. Our standard is under 8 minutes in the lobby after you arrive. Check in remotely and we text you when your room is ready.
+Seen in 20 or it’s free. Visit us during off-peak hours and get roomed within 20 minutes, or your copay is on us. (Terms apply.)
+Real diagnostics, on site. Digital X-ray, rapid lab tests and point-of-care ultrasound, so you get answers without a trip to the ER.
+Care for the whole family. Book one visit for up to four family members.
+A video you’ll actually understand. Your provider records a short personal summary of your diagnosis and next steps.
+We check on you. A care-team text the day after your visit, and a real person replies.
+How it works
+Check in. Online, at the kiosk, or by phone.
+Go anywhere. We send your place in line and keep you updated.
+Come in when we text. You’re taken straight to a room.
+Services snapshot: Illness · Injuries · X-ray and lab · Ultrasound · IV hydration · Physicals and vaccines · Telehealth · Employer health
+Membership teaser: Urgent care, on subscription. Plans from $49/month. See plans.
+For employers teaser: Occupational health for Route 1 businesses: drug screens, DOT exams, workers’ comp and on-site wellness visits.
+Community strip: Proudly serving Elkridge, Hanover, Ellicott City, Columbia, Linthicum and Howard County. Care in your language.
+Closing CTA: Feeling off? Don’t wait. Check in now.
+Emergency notice (always visible): If you think you are having a life-threatening emergency, such as chest pain, trouble breathing, stroke symptoms or severe bleeding, call 911.
+3.2 Services overview
+Intro: SwiftMed is a full-scope urgent care, not a limited retail clinic. We treat the everyday illnesses and injuries that can’t wait, with the tools to diagnose them on the spot.
+Illness care: Colds, flu, COVID-19, strep throat, sinus and ear infections, urinary tract infections, stomach bugs, rashes, allergies and more.
+Injury care: Cuts and lacerations (stitches), sprains and strains, suspected fractures, splinting, burns, wound care, abscess drainage.
+Diagnostics: On-site digital X-ray; rapid tests for strep, flu, COVID-19 and urinalysis; blood counts and basic metabolic panels; point-of-care ultrasound.
+Preventive and routine: Physical exams, sports and school physicals, immunizations, travel health.
+IV hydration and infusions: Physician-supervised. See Section 3.6.
+Chronic condition flare-ups: Same-day stabilization. See Section 3.7.
+Telehealth: See a provider by video from home or work. Included with membership.
+Occupational health: Pre-employment physicals, drug and alcohol testing, DOT exams, workers’ compensation care.
+Coming later: Behavioral health screening and referral navigation (anxiety and depression), planned for a later phase.
+Urgent care or ER? Short two-column guide. Urgent care: fevers, sprains, minor cuts, UTIs, ear pain, mild asthma flare, rashes. ER (call 911): chest pain, severe shortness of breath, stroke signs, major trauma, uncontrolled bleeding, loss of consciousness.
+3.3 Check In / Wait time page
+Headline: Your time, back in your hands.
+Body: Check in online, wait wherever you like, and we’ll text you when you’re 2nd in line. Come in, and you’ll be roomed within minutes. If you haven’t arrived within 10 minutes of the “you’re next” text, we’ll call you, and your spot passes to the next patient after 15 minutes.
+Form fields: Name · mobile number · reason for visit · insurance (or self-pay) · preferred language · who is being seen (me / my child / family)
+Live display: Current wait time and queue status, refreshed at least every 10 minutes.
+Perfect for: Parents checking in a sick child from the school parking lot · commuters on Route 1 checking in on the drive home · anyone who would rather be at home than in a chair.
+In the lobby: If you do come in, you’ll find a coffee and tea station, charging stations and a calm space, for a few minutes, not an hour.
+3.4 The SwiftMed Difference
+Headline: Urgent care, rethought.
+One short block each, linked to the relevant page:
+No waiting room. Virtual queue, live wait times, rooming in minutes.
+Seen in 20 or it’s free. Our off-peak promise.
+Membership. Predictable cost, priority access.
+Family block visits. One slot for the whole household.
+On-site ultrasound. More answers, fewer ER trips.
+IV hydration. Clinical care at a fair price.
+Chronic condition support. Same-day help with high blood pressure, high blood sugar, asthma and more.
+Multilingual care. Certified interpreters, translated materials.
+Care Navigator texts. A check-in the day after, with a real reply.
+Video discharge. Your diagnosis and plan in 60–90 seconds.
+SwiftMed Business. Occupational health for local employers.
+Sports physicals. Fast, affordable, team-friendly.
+3.5 Seen in 20 or It’s Free
+Headline: Seen in 20 or it’s free.
+Body: Walk in during our off-peak hours and we’ll have you in an exam room, with vitals taken, within 20 minutes of checking in. If we miss, your copay is waived.
+Off-peak hours (guarantee applies): Mon–Fri 9 AM–12 PM and 2 PM–5 PM.
+Terms (keep on page): Applies to walk-in patients checking in during off-peak hours when the queue is short at check-in. Not available during peak hours or on weekends. Waiver applies to your copay only, not to insurance-billed services. Clinical urgency always comes first: patients with serious conditions are seen first.
+3.6 IV Hydration & Infusion Suite
+Headline: Real medical IV therapy, not a spa menu.
+Body: Feeling dehydrated, nauseated or run down? Our IV suite is physician-supervised, with a provider assessment before every infusion, monitoring throughout and an anaphylaxis kit within reach.
+Treatment
+What’s included
+Price
+Hydration Basic
+1L IV fluids
+$89
+Nausea Relief
+IV fluids + anti-nausea medication
+$129
+Migraine Relief
+IV fluids + migraine medications
+$159
+Hydration Plus
+IV fluids + electrolytes + B-complex
+$149
+Recovery Boost
+IV fluids + vitamin C, B12 and magnesium
+$179
+Custom
+Provider-ordered
+Quote at visit
+Cash prices. Insurance may be billed where clinically supported. Patients with heart, kidney or heart-failure history need provider clearance first.
+3.7 Chronic Condition Care
+Headline: When your condition flares up and your doctor can’t see you today.
+Body: Many urgent cares send chronic-condition patients to the ER. We don’t. We provide same-day stabilization, give you a written action plan, contact your primary care provider within 24 hours, and book your follow-up before you leave. If you don’t have a primary care provider, we’ll give you a referral list.
+We help with: High blood pressure readings without emergency symptoms · high blood sugar without diabetic emergency · moderate asthma or COPD flare-ups · gout and acute arthritis flares · cellulitis (including a first IV antibiotic dose) · complicated UTIs.
+Then: A text from our Care Navigator two days later to see how you’re doing.
+3.8 Ultrasound & imaging
+Headline: More answers under one roof.
+Body: Alongside digital X-ray, our credentialed providers use point-of-care ultrasound to look at what’s causing your symptoms in real time.
+Used for: Suspected blood clots in the leg · flank pain and kidney stones · upper-right abdominal pain (gallbladder) · lumps, bumps and abscesses · tendon and joint problems · limited heart screening for shortness of breath or palpitations · early pregnancy concerns (screening only, not a diagnostic scan).
+Ultrasound is performed when your provider decides it is clinically appropriate.
+3.9 Membership
+Headline: Urgent care, on your terms.
+Body: Skip the surprise bills and the guesswork. A SwiftMed membership gives you predictable pricing, priority scheduling and a direct line to your care team. Great if you have a high-deductible plan, an HSA, or no insurance.
+Basic
+Plus
+Family
+Monthly
+$49
+$69
+$99
+Annual
+$499
+$699
+$999
+Visits
+2 per year included; 20% off additional visits
+Unlimited
+Unlimited, up to 4 family members
+Telehealth
+Included
+Included
+Included
+Priority scheduling
+–
+✔
+✔
+Direct provider text line
+–
+✔
+✔
+Also included: Digital and physical member ID card, member-only booking lane.
+CTA: Join SwiftMed (recurring billing sign-up). Note on page: Membership is not health insurance. (Confirm exact inclusions and legal language with counsel.)
+3.10 Family Visits
+Headline: One visit. The whole family.
+Body: Book a 45-minute family block for up to four people: a child’s physical, a parent’s sore throat, a grandparent’s blood pressure check and a refill, all in one trip. Each person is seen and documented individually.
+Available: Mon–Fri, 9 AM–12 PM and 2 PM–5 PM.
+How: Choose “Family Visit” online. Enter each person’s name, age and reason for visit. We confirm within 2 hours.
+3.11 SwiftMed Business (employers)
+Headline: Occupational health that keeps your team working.
+Body: From pre-employment physicals to workers’ comp, SwiftMed Business gives Route 1 and Howard County employers a single, responsive health partner, minutes from your site.
+Services: Pre-employment physicals and screenings · DOT-compliant drug and alcohol testing · workers’ compensation evaluation and treatment · OSHA-required medical surveillance · same-day priority access for referred employees · quarterly on-site wellness visits (blood pressure screening, flu shots, health talks) · co-branded monthly health newsletter · employer portal with results, billing and compliance tracking.
+How it works: 1) Meet with us 2) Sign a simple agreement 3) Your HR contact gets portal access 4) We schedule your first on-site wellness visit within 60 days 5) Quarterly review of usage and satisfaction.
+CTA: Request a Business Consultation (form: company, contact, headcount, services needed).
+3.12 Sports Physicals
+Headline: Cleared to play.
+Body: Fast, affordable sports physicals for student athletes, April through July. $35–$45 per physical, cash or insurance. Forms completed in advance through our portal, clearance letter the same day.
+For coaches and athletic directors: Schedule your whole team in a single 2-hour block. Contact us to set up team scheduling.
+3.13 Languages & Community
+Headline: Care in the language you think in.
+Body: Spanish and Hindi-speaking team members are scheduled on every shift. Patient materials are available in Spanish, Hindi and French. For other languages we use certified phone interpreters, never family members. Post-visit questions can be sent by WhatsApp, Mon–Fri 8 AM–6 PM.
+Community: We host health education events with houses of worship, community centers and ESL programs, and sponsor local youth sports and community runs. Interested in partnering? Contact us.
+3.14 Insurance & Pricing
+Headline: Clear about cost, before you come in.
+Body: We plan to accept commercial PPO and HMO plans, Medicare, and Maryland Medicaid (HealthChoice), as well as employer-paid visits and self-pay. Self-pay and membership options are available if you are uninsured or have a high deductible.
+Add: Accepted plan list (to be finalized once credentialing is complete) · self-pay price list · No Surprises Act and price transparency notice · insurance-check tool.
+3.15 About Us
+Headline: Built by physicians, for our neighbors.
+Body: SwiftMed Urgent Care is a physician-led clinic created because Elkridge and the Route 1 corridor deserve urgent care close to home. Our nearest alternatives are miles away, and our community is growing fast. We built SwiftMed to be faster, clearer and kinder than the urgent care you’re used to.
+Add: Founder/medical director story and photo · provider bios (name, credentials, languages, photo) · what we believe (access, dignity, clinical excellence, community) · facility photos.
+3.16 Contact & Directions
+Address: 6244 Washington Blvd, Elkridge, MD 21075 · Phone · Email · Hours · Embedded map · Parking and accessibility details · nearby landmarks · contact form (no medical details in the form; add a warning not to submit emergency or sensitive health information).
+3.17 FAQ (starter set)
+Do I need an appointment? No. Walk-ins are welcome, and you can also check in online.
+How does the virtual queue work? Check in, wait wherever you like, and we text you when you’re next.
+What if I’m not sure it’s urgent? Call us. If it sounds like an emergency, we’ll tell you to call 911.
+Do you see children? Yes (confirm age range).
+Do you take my insurance? See Insurance & Pricing. We also offer self-pay and membership.
+What should I bring? Photo ID, insurance card, medication list.
+Can I get a work or school note? Yes, when clinically appropriate.
+Do you do X-rays and lab tests? Yes, on site.
+How does Seen in 20 work? See the terms on that page.
+Is membership insurance? No.
+Will I get my results online? Yes, through the patient portal.
+Do you offer telehealth? Yes (confirm hours and states).
+Can I request an interpreter? Yes, free of charge.
+3.18 Careers
+Headline: Build something better with us.
+Roles to list at launch: Physician (MD/DO), Physician Assistant/Nurse Practitioner (including pediatric-trained), Radiology Technologist, Medical Assistant (including a “Flow Champion” role and bilingual preference), Front Desk/Registration, Clinic/Operations Manager, Care Navigator, Business Development.
+Pitch: Modern tools, a physician-led culture, a clear standard of care and a team that cares how patients feel when they leave.
+3.19 Health Library (blog) – first 20 topics
+Urgent care vs. ER: when to go where · Strep throat symptoms and testing · Is it the flu or COVID? · What to do for a sprain · When do cuts need stitches? · UTI symptoms in adults · Back-to-school and sports physical checklist · Dehydration: signs and when IV fluids help · Migraine relief options · High blood pressure reading: when to seek same-day care · Gout flare-ups explained · Asthma action plans · Travel vaccines for international trips · What to expect at a DOT physical · Workplace injury: what employees and employers should do · Seasonal allergy vs. cold · Keeping kids healthy during school season · Heat and summer safety · Winter injury prevention · How to read your discharge instructions. Publish weekly; add a Spanish and Hindi post at least twice a week on social.
+4. SEO and local search
+Primary keywords: urgent care Elkridge MD · walk-in clinic Howard County · urgent care Washington Blvd · urgent care near me · X-ray near me · sports physicals Elkridge · occupational health Howard County · DOT physical Elkridge · IV hydration Howard County · telehealth urgent care Maryland.
+Suggested meta titles
+Home: SwiftMed Urgent Care | Walk-In Care in Elkridge, MD
+Services: Urgent Care Services in Elkridge | X-Ray, Lab, Ultrasound
+Business: Occupational Health in Howard County | SwiftMed Business
+Membership: Urgent Care Membership | SwiftMed Elkridge
+Suggested meta description (home): Physician-led urgent care at 6244 Washington Blvd, Elkridge. Check in online, skip the waiting room, and get X-ray, lab and ultrasound under one roof.
+Technical: Google Business Profile claimed and verified six months before opening · LocalBusiness and MedicalClinic schema · service-page schema · FAQ schema · NAP consistency across directories · wait time on Google Business Profile · review-request links.
+5. Functional requirements
+Live wait time and virtual queue (e.g., Solv or Experity), above the fold on the home page
+Online check-in and family-visit booking
+Patient portal link
+Membership sign-up with recurring billing (Stripe or Square)
+Employer inquiry form and employer portal login
+Sports-physical and team scheduling
+Telehealth entry
+Multilingual toggle (English, Spanish, Hindi, French)
+Click-to-call and map integration
+Review request and review display (once reviews exist)
+Careers application form
+Accessibility (WCAG 2.1 AA), mobile-first, fast load
+HIPAA-safe forms and analytics (no patient health information in tracking tools); cookie and consent banner
+6. Trust and proof (fill in as available)
+Provider credentials and board certifications · Google rating (target 4.7+) and review count (target 100+ in year one) · patient testimonials with written consent · employer partner logos (with permission) · school and community partners · awards · press · photos of the clinic and team.
+7. Launch phases
+Coming Soon (now to opening): Single page with brand, address, opening date (Q1 2027), services overview, email and text sign-up for opening news, employer inquiry form, careers link, and Google Business Profile live.
+Soft launch: Full site, live wait time, check-in, membership, insurance page.
+Month 3 onward: Reviews, testimonials, employer case studies, blog cadence.
+Seasonal: Sports physical campaign (spring), flu and vaccine campaign (fall).
+8. Required legal and compliance content
+911 emergency notice · Notice of Privacy Practices (HIPAA) · website privacy policy · terms of use · nondiscrimination and language-assistance notice · accessibility statement · price transparency and No Surprises Act notice · membership terms · Seen in 20 terms · patient media consent policy · telehealth consent.
