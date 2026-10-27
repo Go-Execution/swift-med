@@ -20,7 +20,7 @@ export default function Header({ onOpenCheckIn, waitMinutes }: HeaderProps) {
           
           {/* Logo Icon Only (Prominent & Clean, No HTML Text) */}
           <Link href="/" className="flex items-center group py-1" aria-label="SwiftMed Urgent Care">
-            <div className="relative w-14 h-14 sm:w-16 sm:h-16 flex-shrink-0 transition-transform duration-200 group-hover:scale-105">
+            <div className="relative w-auto h-auto flex-shrink-0 transition-transform duration-200 group-hover:scale-105">
               <Image
                 src="/assets/swift-med-logo.png"
                 alt="SwiftMed Urgent Care Logo"
