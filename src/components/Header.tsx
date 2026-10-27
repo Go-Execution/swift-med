@@ -24,8 +24,8 @@ export default function Header({ onOpenCheckIn, waitMinutes }: HeaderProps) {
               <Image
                 src="/assets/swift-med-logo.png"
                 alt="SwiftMed Urgent Care Logo"
-                width={64}
-                height={64}
+                width={90}
+                height={90}
                 className="w-full h-full object-contain"
                 priority
               />

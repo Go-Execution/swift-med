@@ -13,8 +13,8 @@ export default function Footer() {
               <Image
                 src="/assets/swift-med-logo.png"
                 alt="SwiftMed Logo"
-                width={44}
-                height={44}
+                width={80}
+                height={80}
                 className="w-full h-full object-contain"
               />
             </div>
