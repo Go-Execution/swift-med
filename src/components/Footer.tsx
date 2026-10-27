@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="flex items-center gap-3">
             <div className="w-11 h-11 flex-shrink-0">
               <Image
-                src="/assets/swift-med-icon.png"
+                src="/assets/swift-med-logo.png"
                 alt="SwiftMed Logo"
                 width={44}
                 height={44}
