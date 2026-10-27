@@ -18,15 +18,15 @@ export default function Header({ onOpenCheckIn, waitMinutes }: HeaderProps) {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-20">
           
-          {/* Logo Icon Only (Prominent & Clean, No HTML Text) */}
+          {/* Brand Logo (Horizontal Lockup - Clean, Prominent & Uncut) */}
           <Link href="/" className="flex items-center group py-1" aria-label="SwiftMed Urgent Care">
-            <div className="relative w-auto h-auto flex-shrink-0 transition-transform duration-200 group-hover:scale-105">
+            <div className="relative h-12 sm:h-14 w-auto flex-shrink-0 transition-transform duration-200 group-hover:scale-[1.02]">
               <Image
-                src="/assets/swift-med-logo.png"
+                src="/assets/swift-med-horizontal-logo.png"
                 alt="SwiftMed Urgent Care Logo"
-                width={90}
-                height={90}
-                className="w-full h-full object-contain"
+                width={244}
+                height={56}
+                className="h-full w-auto object-contain"
                 priority
               />
             </div>

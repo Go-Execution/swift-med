@@ -8,20 +8,17 @@ export default function Footer() {
         
         {/* Top Row: Brand & Quick Links */}
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6 pb-6 border-b border-slate-800">
-          <div className="flex items-center gap-3">
-            <div className="w-auto h-auto flex-shrink-0">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+            <div className="h-12 w-auto flex-shrink-0 bg-white px-3 py-1.5 rounded-xl shadow-xs">
               <Image
-                src="/assets/swift-med-logo.png"
-                alt="SwiftMed Logo"
-                width={80}
-                height={80}
-                className="w-full h-full object-contain"
+                src="/assets/swift-med-horizontal-logo.png"
+                alt="SwiftMed Urgent Care"
+                width={200}
+                height={46}
+                className="h-full w-auto object-contain"
               />
             </div>
             <div>
-              <span className="font-display font-extrabold text-base text-white">
-                SwiftMed Urgent Care
-              </span>
               <p className="text-[11px] text-slate-400">
                 6244 Washington Blvd, Elkridge, MD 21075 • (410) 555-SWIFT
               </p>
