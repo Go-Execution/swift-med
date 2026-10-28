@@ -4,8 +4,12 @@ import { useState, useEffect } from 'react';
 import EmergencyBanner from '@/components/EmergencyBanner';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
+import MissionSection from '@/components/MissionSection';
 import Guarantees from '@/components/Guarantees';
 import ServicesTabs from '@/components/ServicesTabs';
+import MembershipSection from '@/components/MembershipSection';
+import IvHydrationSection from '@/components/IvHydrationSection';
+import FamilyAndSports from '@/components/FamilyAndSports';
 import HowItWorks from '@/components/HowItWorks';
 import PricingLocation from '@/components/PricingLocation';
 import FaqSection from '@/components/FaqSection';
@@ -18,10 +22,9 @@ export default function Home() {
   const [waitMinutes, setWaitMinutes] = useState(14);
   const [patientsAhead, setPatientsAhead] = useState(3);
 
-  // Subtle real-time simulation
+  // Subtle real-time simulation for wait times
   useEffect(() => {
     const interval = setInterval(() => {
-      // Periodic slight fluctuation between 10 and 16 minutes
       setWaitMinutes((prev) => {
         const delta = Math.random() > 0.5 ? 1 : -1;
         const next = prev + delta;
@@ -44,44 +47,56 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col bg-white">
-      {/* 911 Emergency Alert Bar */}
+      {/* 1. 911 Emergency Alert Bar (Red) */}
       <EmergencyBanner />
 
-      {/* Main Header */}
+      {/* 2. Main Header with Inviting Colored Nav Buttons */}
       <Header
         onOpenCheckIn={() => handleOpenCheckIn()}
         waitMinutes={waitMinutes}
       />
 
-      {/* Main Page Flow */}
+      {/* Main Page Flow with Alternating Color Blocks */}
       <main className="flex-1">
-        {/* Hero Section */}
+        {/* 3. Hero Section with Welcoming Human Slides + Live Queue Widget */}
         <Hero
           onOpenCheckIn={() => handleOpenCheckIn()}
           waitMinutes={waitMinutes}
           patientsAhead={patientsAhead}
         />
 
-        {/* 3 Core Guarantees */}
+        {/* 4. Highlighted Neighborhood Mission Section (Warm Golden/Amber) */}
+        <MissionSection />
+
+        {/* 5. 3 Core Standards (Under 8-min, Seen in 20 or Free, Diagnostics) */}
         <Guarantees />
 
-        {/* Curated Interactive Clinical Services */}
+        {/* 6. Full-Scope Clinical Services (Soft Sage Green #edf6ef) */}
         <ServicesTabs onOpenCheckIn={handleOpenCheckIn} />
 
-        {/* 3-Step Frictionless Queue Flow */}
-        <HowItWorks />
+        {/* 7. Membership & Subscription Plans (Deep Royal Navy / Sapphire) */}
+        <MembershipSection onOpenCheckIn={handleOpenCheckIn} />
 
-        {/* Transparent Pricing & Route 1 Location */}
+        {/* 8. Physician-Supervised IV Hydration Suite (Soft Sky Blue) */}
+        <IvHydrationSection onOpenCheckIn={handleOpenCheckIn} />
+
+        {/* 9. Family Block Visits & Sports Physicals (Warm Amber / Gold) */}
+        <FamilyAndSports onOpenCheckIn={handleOpenCheckIn} />
+
+        {/* 10. How Virtual Check-In Works (3-Step Flow) */}
+        <HowItWorks onOpenCheckIn={() => handleOpenCheckIn()} />
+
+        {/* 11. Route 1 Location, Hours, Free Parking & Transparent Pricing */}
         <PricingLocation onOpenCheckIn={() => handleOpenCheckIn()} />
 
-        {/* 5 Essential FAQs */}
+        {/* 12. Essential FAQs */}
         <FaqSection />
       </main>
 
-      {/* Clinical Footer */}
+      {/* 13. Clinical & Legal Footer */}
       <Footer />
 
-      {/* Interactive Check-In Modal / Drawer */}
+      {/* 14. Interactive Virtual Queue Check-In Modal / Drawer */}
       <CheckInModal
         isOpen={isCheckInOpen}
         onClose={() => setIsCheckInOpen(false)}

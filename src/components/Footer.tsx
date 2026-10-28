@@ -26,17 +26,23 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-wrap gap-5 text-slate-300 font-medium text-xs">
+            <Link href="#mission" className="hover:text-white transition-colors">
+              Our Mission
+            </Link>
             <Link href="#services" className="hover:text-white transition-colors">
               Services
             </Link>
-            <Link href="#guarantees" className="hover:text-white transition-colors">
-              Guarantee
+            <Link href="#membership" className="hover:text-white transition-colors">
+              Membership Plans
+            </Link>
+            <Link href="#iv-suite" className="hover:text-white transition-colors">
+              IV Hydration
             </Link>
             <Link href="#how-it-works" className="hover:text-white transition-colors">
               How It Works
             </Link>
-            <Link href="#pricing" className="hover:text-white transition-colors">
-              Pricing &amp; Hours
+            <Link href="#location" className="hover:text-white transition-colors">
+              Location &amp; Hours
             </Link>
           </div>
         </div>

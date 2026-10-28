@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   X,
@@ -30,6 +30,15 @@ export default function CheckInModal({
   const [lastName, setLastName] = useState('');
   const [phone, setPhone] = useState('');
   const [ticketNumber, setTicketNumber] = useState('SM-248');
+
+  useEffect(() => {
+    if (initialReason) {
+      setReason(initialReason);
+      if (initialReason.toLowerCase().includes('family')) {
+        setWhoSeen('Family Block');
+      }
+    }
+  }, [initialReason, isOpen]);
 
   function handleContinue() {
     if (step === 1) {
