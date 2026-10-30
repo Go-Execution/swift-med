@@ -68,14 +68,14 @@ export default function Home() {
         {/* 4. Highlighted Neighborhood Mission Section (Warm Golden/Amber) */}
         <MissionSection />
 
-        {/* 5. 3 Core Standards (Under 8-min, Seen in 20 or Free, Diagnostics) */}
+        {/* 5. Membership & Subscription Plans (Deep Royal Navy / Sapphire) */}
+        <MembershipSection onOpenCheckIn={handleOpenCheckIn} />
+
+        {/* 6. 3 Core Standards (The SwiftMed Standard: Under 8-min, Seen in 20, Diagnostics) */}
         <Guarantees />
 
-        {/* 6. Full-Scope Clinical Services (Soft Sage Green #edf6ef) */}
+        {/* 7. Full-Scope Clinical Services (Soft Sage Green #edf6ef) */}
         <ServicesTabs onOpenCheckIn={handleOpenCheckIn} />
-
-        {/* 7. Membership & Subscription Plans (Deep Royal Navy / Sapphire) */}
-        <MembershipSection onOpenCheckIn={handleOpenCheckIn} />
 
         {/* 8. Physician-Supervised IV Hydration Suite (Soft Sky Blue) */}
         <IvHydrationSection onOpenCheckIn={handleOpenCheckIn} />

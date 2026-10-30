@@ -289,23 +289,34 @@ export default function Hero({ onOpenCheckIn, waitMinutes, patientsAhead }: Hero
 
         </div>
 
-        {/* Trust Badges Bar */}
-        <div className="mt-10 pt-6 border-t border-slate-200 grid grid-cols-2 sm:grid-cols-4 gap-4 text-xs font-bold text-slate-800">
-          <div className="flex items-center gap-2.5 p-3 rounded-xl bg-white border border-slate-200 shadow-2xs">
-            <Stethoscope className="w-4 h-4 text-brand-blue flex-shrink-0" />
-            <span>Physician-Led Clinic</span>
+        {/* Trust Badges Bar - 4 Logo Colors */}
+        <div className="mt-10 pt-6 border-t border-slate-200/80 grid grid-cols-2 sm:grid-cols-4 gap-3.5 text-xs font-bold">
+          <div className="flex items-center gap-2.5 p-3.5 rounded-2xl bg-gradient-to-br from-blue-50 to-blue-100/70 border border-blue-200 text-blue-950 shadow-2xs hover:border-blue-400 hover:shadow-xs transition-all">
+            <div className="w-7 h-7 rounded-lg bg-blue-600/10 flex items-center justify-center flex-shrink-0">
+              <Stethoscope className="w-4 h-4 text-blue-600" />
+            </div>
+            <span className="font-extrabold tracking-tight">Physician-Led Clinic</span>
           </div>
-          <div className="flex items-center gap-2.5 p-3 rounded-xl bg-white border border-slate-200 shadow-2xs">
-            <Scan className="w-4 h-4 text-emerald-600 flex-shrink-0" />
-            <span>Digital X-Ray On Site</span>
+
+          <div className="flex items-center gap-2.5 p-3.5 rounded-2xl bg-gradient-to-br from-emerald-50 to-emerald-100/70 border border-emerald-200 text-emerald-950 shadow-2xs hover:border-emerald-400 hover:shadow-xs transition-all">
+            <div className="w-7 h-7 rounded-lg bg-emerald-600/10 flex items-center justify-center flex-shrink-0">
+              <Scan className="w-4 h-4 text-emerald-600" />
+            </div>
+            <span className="font-extrabold tracking-tight">Digital X-Ray On Site</span>
           </div>
-          <div className="flex items-center gap-2.5 p-3 rounded-xl bg-white border border-slate-200 shadow-2xs">
-            <ShieldCheck className="w-4 h-4 text-amber-600 flex-shrink-0" />
-            <span>Seen in 20 or Copay Free</span>
+
+          <div className="flex items-center gap-2.5 p-3.5 rounded-2xl bg-gradient-to-br from-amber-50 to-amber-100/70 border border-amber-200 text-amber-950 shadow-2xs hover:border-amber-400 hover:shadow-xs transition-all">
+            <div className="w-7 h-7 rounded-lg bg-amber-600/10 flex items-center justify-center flex-shrink-0">
+              <ShieldCheck className="w-4 h-4 text-amber-600" />
+            </div>
+            <span className="font-extrabold tracking-tight">Seen in 20 or Copay Free</span>
           </div>
-          <div className="flex items-center gap-2.5 p-3 rounded-xl bg-white border border-slate-200 shadow-2xs">
-            <Users className="w-4 h-4 text-indigo-600 flex-shrink-0" />
-            <span>Spanish, Hindi &amp; French</span>
+
+          <div className="flex items-center gap-2.5 p-3.5 rounded-2xl bg-gradient-to-br from-rose-50 to-rose-100/70 border border-rose-200 text-rose-950 shadow-2xs hover:border-rose-400 hover:shadow-xs transition-all">
+            <div className="w-7 h-7 rounded-lg bg-rose-600/10 flex items-center justify-center flex-shrink-0">
+              <Users className="w-4 h-4 text-rose-600" />
+            </div>
+            <span className="font-extrabold tracking-tight">Spanish, Hindi &amp; French</span>
           </div>
         </div>
 

@@ -17,34 +17,34 @@ export default function MissionSection() {
           <span>A Neighborhood Clinic For Howard County</span>
         </div>
 
-        {/* Highlighted Mission Headline */}
+        {/* Highlighted Mission Headline - Logo Brand Palette, No Black, No Underline */}
         <motion.h2
           initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight max-w-4xl mx-auto mb-6"
+          className="font-display text-3xl sm:text-4xl lg:text-5xl font-extrabold text-brand-navy tracking-tight leading-tight max-w-4xl mx-auto mb-6"
         >
           &ldquo;Accessible, high-quality medical care with the{' '}
-          <span className="text-brand-blue underline decoration-amber-400 decoration-wavy decoration-2">
-            speed, dignity, and clinical excellence
-          </span>{' '}
+          <span className="text-brand-blue">speed</span>,{' '}
+          <span className="text-emerald-600">dignity</span>, and{' '}
+          <span className="text-amber-600">clinical excellence</span>{' '}
           our neighbors deserve.&rdquo;
         </motion.h2>
 
         {/* Narrative */}
-        <p className="text-base sm:text-lg text-slate-700 max-w-3xl mx-auto leading-relaxed mb-10">
+        <p className="text-base sm:text-lg text-slate-700/90 max-w-3xl mx-auto leading-relaxed mb-10">
           SwiftMed is a physician-led urgent care created because Elkridge and the Route 1 corridor deserve prompt, exceptional healthcare close to home. We built SwiftMed to be faster, clearer, and kinder than the urgent care you’re used to.
         </p>
 
-        {/* 4 Community Commitment Cards */}
+        {/* 4 Community Commitment Cards - 4 Logo Colors (Amber, Blue, Green, Red) */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-left">
           
-          <div className="p-5 rounded-2xl bg-white/90 backdrop-blur-sm border border-amber-200 shadow-xs hover:border-amber-400 transition-colors">
+          <div className="p-5 rounded-2xl bg-white/95 backdrop-blur-sm border border-amber-200 shadow-xs hover:border-amber-400 transition-colors">
             <div className="w-9 h-9 rounded-xl bg-amber-100 text-amber-800 flex items-center justify-center font-bold mb-3">
               <Clock className="w-5 h-5 text-amber-700" />
             </div>
-            <h3 className="font-display font-bold text-sm text-slate-900 mb-1">
+            <h3 className="font-display font-bold text-sm text-amber-950 mb-1">
               Respect for Your Time
             </h3>
             <p className="text-xs text-slate-600 leading-relaxed">
@@ -52,11 +52,11 @@ export default function MissionSection() {
             </p>
           </div>
 
-          <div className="p-5 rounded-2xl bg-white/90 backdrop-blur-sm border border-blue-200 shadow-xs hover:border-blue-400 transition-colors">
+          <div className="p-5 rounded-2xl bg-white/95 backdrop-blur-sm border border-blue-200 shadow-xs hover:border-blue-400 transition-colors">
             <div className="w-9 h-9 rounded-xl bg-blue-100 text-brand-blue flex items-center justify-center font-bold mb-3">
               <ShieldCheck className="w-5 h-5" />
             </div>
-            <h3 className="font-display font-bold text-sm text-slate-900 mb-1">
+            <h3 className="font-display font-bold text-sm text-blue-950 mb-1">
               Physician-Led Care
             </h3>
             <p className="text-xs text-slate-600 leading-relaxed">
@@ -64,11 +64,11 @@ export default function MissionSection() {
             </p>
           </div>
 
-          <div className="p-5 rounded-2xl bg-white/90 backdrop-blur-sm border border-emerald-200 shadow-xs hover:border-emerald-400 transition-colors">
+          <div className="p-5 rounded-2xl bg-white/95 backdrop-blur-sm border border-emerald-200 shadow-xs hover:border-emerald-400 transition-colors">
             <div className="w-9 h-9 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center font-bold mb-3">
               <Users className="w-5 h-5 text-emerald-700" />
             </div>
-            <h3 className="font-display font-bold text-sm text-slate-900 mb-1">
+            <h3 className="font-display font-bold text-sm text-emerald-950 mb-1">
               Family &amp; Community First
             </h3>
             <p className="text-xs text-slate-600 leading-relaxed">
@@ -76,11 +76,11 @@ export default function MissionSection() {
             </p>
           </div>
 
-          <div className="p-5 rounded-2xl bg-white/90 backdrop-blur-sm border border-indigo-200 shadow-xs hover:border-indigo-400 transition-colors">
-            <div className="w-9 h-9 rounded-xl bg-indigo-100 text-indigo-800 flex items-center justify-center font-bold mb-3">
-              <MapPin className="w-5 h-5 text-indigo-700" />
+          <div className="p-5 rounded-2xl bg-white/95 backdrop-blur-sm border border-rose-200 shadow-xs hover:border-rose-400 transition-colors">
+            <div className="w-9 h-9 rounded-xl bg-rose-100 text-rose-800 flex items-center justify-center font-bold mb-3">
+              <MapPin className="w-5 h-5 text-rose-700" />
             </div>
-            <h3 className="font-display font-bold text-sm text-slate-900 mb-1">
+            <h3 className="font-display font-bold text-sm text-rose-950 mb-1">
               Route 1 Neighbors
             </h3>
             <p className="text-xs text-slate-600 leading-relaxed">

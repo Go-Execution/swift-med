@@ -43,17 +43,17 @@ export default function Header({ onOpenCheckIn, waitMinutes }: HeaderProps) {
             </Link>
 
             <Link
-              href="#services"
-              className="px-3.5 py-2 rounded-xl text-blue-900 bg-blue-50/80 hover:bg-blue-100 border border-blue-200/70 transition-all"
-            >
-              Services &amp; Labs
-            </Link>
-
-            <Link
               href="#membership"
               className="px-3.5 py-2 rounded-xl text-emerald-900 bg-emerald-50/80 hover:bg-emerald-100 border border-emerald-200/70 transition-all"
             >
               Membership &amp; Plans
+            </Link>
+
+            <Link
+              href="#services"
+              className="px-3.5 py-2 rounded-xl text-blue-900 bg-blue-50/80 hover:bg-blue-100 border border-blue-200/70 transition-all"
+            >
+              Services &amp; Labs
             </Link>
 
             <Link
@@ -127,18 +127,18 @@ export default function Header({ onOpenCheckIn, waitMinutes }: HeaderProps) {
               Our Mission
             </Link>
             <Link
-              href="#services"
-              onClick={() => setMobileMenuOpen(false)}
-              className="p-3 rounded-xl bg-blue-50 text-blue-900 border border-blue-200"
-            >
-              Services &amp; Labs
-            </Link>
-            <Link
               href="#membership"
               onClick={() => setMobileMenuOpen(false)}
               className="p-3 rounded-xl bg-emerald-50 text-emerald-900 border border-emerald-200"
             >
               Membership &amp; Plans
+            </Link>
+            <Link
+              href="#services"
+              onClick={() => setMobileMenuOpen(false)}
+              className="p-3 rounded-xl bg-blue-50 text-blue-900 border border-blue-200"
+            >
+              Services &amp; Labs
             </Link>
             <Link
               href="#iv-suite"

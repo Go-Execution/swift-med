@@ -141,7 +141,7 @@ export default function MembershipSection({ onOpenCheckIn }: MembershipSectionPr
 
               <div className="flex items-baseline gap-1 mb-6">
                 <span className="font-display font-extrabold text-4xl text-amber-300">
-                  {isAnnual ? '$699' : '$69'}
+                  {isAnnual ? '$999' : '$99'}
                 </span>
                 <span className="text-xs text-slate-300 font-medium">
                   {isAnnual ? '/year' : '/month'}
@@ -189,16 +189,16 @@ export default function MembershipSection({ onOpenCheckIn }: MembershipSectionPr
               <div className="flex justify-between items-center mb-2">
                 <h3 className="font-display font-extrabold text-xl text-white">Family Plan</h3>
                 <span className="text-xs font-bold px-2.5 py-1 rounded-full bg-indigo-500/30 text-indigo-200 border border-indigo-400/40">
-                  Up to 4 Members
+                  Family of 3 or 4
                 </span>
               </div>
               <p className="text-xs text-slate-300 mb-6">
-                Complete urgent care coverage for parents, kids, and grandparents.
+                Complete urgent care coverage for parents and children (family of 3 or 4).
               </p>
 
               <div className="flex items-baseline gap-1 mb-6">
                 <span className="font-display font-extrabold text-4xl text-white">
-                  {isAnnual ? '$999' : '$99'}
+                  {isAnnual ? '$2,999' : '$299'}
                 </span>
                 <span className="text-xs text-slate-300 font-medium">
                   {isAnnual ? '/year' : '/month'}
@@ -208,7 +208,7 @@ export default function MembershipSection({ onOpenCheckIn }: MembershipSectionPr
               <ul className="space-y-3 text-xs sm:text-sm text-slate-200 pb-6 border-b border-white/15">
                 <li className="flex items-start gap-2.5">
                   <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />
-                  <span><strong>Unlimited Visits for Up to 4 Family Members</strong></span>
+                  <span><strong>Unlimited Visits for Family of 3 or 4</strong> ($0 copay)</span>
                 </li>
                 <li className="flex items-start gap-2.5">
                   <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0 mt-0.5" />
