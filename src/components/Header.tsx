@@ -15,68 +15,68 @@ export default function Header({ onOpenCheckIn, waitMinutes }: HeaderProps) {
 
   return (
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/90 shadow-xs transition-all">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="flex items-center justify-between h-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-20 sm:h-22">
           
-          {/* Brand Logo - Horizontal Full Lockup */}
-          <Link href="/" className="flex items-center group py-1" aria-label="SwiftMed Urgent Care">
-            <div className="relative h-12 sm:h-14 w-auto flex-shrink-0 transition-transform duration-200 group-hover:scale-[1.02]">
+          {/* Brand Logo - Horizontal Full Lockup with Breathing Space */}
+          <Link href="/" className="flex items-center group py-1 flex-shrink-0 mr-4 xl:mr-8" aria-label="SwiftMed Urgent Care">
+            <div className="relative h-11 sm:h-12 w-auto flex-shrink-0 transition-transform duration-200 group-hover:scale-[1.02]">
               <Image
                 src="/assets/swift-med-horizontal-logo.png"
                 alt="SwiftMed Urgent Care Logo"
-                width={244}
-                height={56}
+                width={218}
+                height={50}
                 className="h-full w-auto object-contain"
                 priority
               />
             </div>
           </Link>
 
-          {/* Desktop Nav - Inviting Colored Pill Buttons */}
-          <nav className="hidden lg:flex items-center gap-2.5 text-xs font-bold">
+          {/* Desktop Nav - Inviting Colored Pill Buttons with Breathing Room */}
+          <nav className="hidden lg:flex items-center gap-2 xl:gap-3 text-xs xl:text-[13px] font-bold whitespace-nowrap">
             <Link
               href="#mission"
-              className="px-3.5 py-2 rounded-xl text-amber-900 bg-amber-50/80 hover:bg-amber-100 border border-amber-200/70 transition-all flex items-center gap-1.5"
+              className="px-3 xl:px-3.5 py-2 rounded-xl text-amber-900 bg-amber-50/80 hover:bg-amber-100 border border-amber-200/70 transition-all flex items-center gap-1.5 whitespace-nowrap"
             >
-              <Sparkles className="w-3.5 h-3.5 text-amber-600" />
+              <Sparkles className="w-3.5 h-3.5 text-amber-600 flex-shrink-0" />
               <span>Our Mission</span>
             </Link>
 
             <Link
               href="#membership"
-              className="px-3.5 py-2 rounded-xl text-emerald-900 bg-emerald-50/80 hover:bg-emerald-100 border border-emerald-200/70 transition-all"
+              className="px-3 xl:px-3.5 py-2 rounded-xl text-emerald-900 bg-emerald-50/80 hover:bg-emerald-100 border border-emerald-200/70 transition-all whitespace-nowrap"
             >
-              Membership &amp; Plans
+              <span>Membership <span className="hidden xl:inline">&amp; Plans</span></span>
             </Link>
 
             <Link
               href="#services"
-              className="px-3.5 py-2 rounded-xl text-blue-900 bg-blue-50/80 hover:bg-blue-100 border border-blue-200/70 transition-all"
+              className="px-3 xl:px-3.5 py-2 rounded-xl text-blue-900 bg-blue-50/80 hover:bg-blue-100 border border-blue-200/70 transition-all whitespace-nowrap"
             >
-              Services &amp; Labs
+              <span>Services <span className="hidden xl:inline">&amp; Labs</span></span>
             </Link>
 
             <Link
               href="#iv-suite"
-              className="px-3.5 py-2 rounded-xl text-indigo-900 bg-indigo-50/80 hover:bg-indigo-100 border border-indigo-200/70 transition-all"
+              className="px-3 xl:px-3.5 py-2 rounded-xl text-indigo-900 bg-indigo-50/80 hover:bg-indigo-100 border border-indigo-200/70 transition-all whitespace-nowrap"
             >
-              IV Hydration
+              <span>IV Hydration</span>
             </Link>
 
             <Link
               href="#location"
-              className="px-3.5 py-2 rounded-xl text-slate-700 hover:bg-slate-100 border border-transparent hover:border-slate-200 transition-all"
+              className="px-3 xl:px-3.5 py-2 rounded-xl text-slate-700 bg-slate-50/80 hover:bg-slate-100 border border-slate-200/70 transition-all whitespace-nowrap"
             >
-              Location &amp; Hours
+              <span>Location <span className="hidden xl:inline">&amp; Hours</span></span>
             </Link>
           </nav>
 
-          {/* Desktop Right Actions */}
-          <div className="hidden sm:flex items-center gap-3">
+          {/* Desktop Right Actions with Breathing Space */}
+          <div className="hidden sm:flex items-center gap-2.5 xl:gap-3 flex-shrink-0 ml-3 xl:ml-6">
             {/* Live Wait Pill */}
             <a
               href="#live-queue-card"
-              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-50 border border-emerald-300 text-xs font-bold text-emerald-900 shadow-xs hover:bg-emerald-100 transition-colors"
+              className="inline-flex items-center gap-2 px-3 py-1.5 xl:py-2 rounded-full bg-emerald-50 border border-emerald-300 text-xs font-bold text-emerald-900 shadow-xs hover:bg-emerald-100 transition-colors whitespace-nowrap"
               title="Click to see live virtual queue status"
             >
               <span className="relative flex h-2.5 w-2.5">
@@ -89,9 +89,9 @@ export default function Header({ onOpenCheckIn, waitMinutes }: HeaderProps) {
             {/* Check In CTA Button */}
             <button
               onClick={onOpenCheckIn}
-              className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-brand-navy hover:from-blue-700 hover:to-blue-900 text-white text-xs font-bold shadow-sm hover:shadow transition-all active:scale-[0.98]"
+              className="inline-flex items-center gap-2 px-4 xl:px-5 py-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-brand-navy hover:from-blue-700 hover:to-blue-900 text-white text-xs xl:text-sm font-bold shadow-sm hover:shadow transition-all active:scale-[0.98] whitespace-nowrap"
             >
-              <ClipboardCheck className="w-4 h-4" />
+              <ClipboardCheck className="w-4 h-4 flex-shrink-0" />
               <span>Check In Online</span>
             </button>
           </div>
