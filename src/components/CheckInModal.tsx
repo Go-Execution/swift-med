@@ -143,6 +143,7 @@ export default function CheckInModal({
                       {[
                         { title: 'Everyday Illness', desc: 'Cold, flu, COVID, strep, ear pain, UTI' },
                         { title: 'Injury / Cuts / Sprain', desc: 'Stitches, sprains, suspected fractures, burns' },
+                        { title: 'Employer / Occupational Health', desc: 'Work injury, DOT physical, pre-employment drug screening' },
                         { title: 'Digital X-Ray & Rapid Lab', desc: 'Radiology, blood counts, rapid test' },
                         { title: 'IV Hydration Suite', desc: 'Physician-supervised recovery fluids' },
                         { title: 'Sports / School Physical', desc: '$35 – $45 same-day clearance' },

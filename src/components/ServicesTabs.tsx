@@ -7,9 +7,11 @@ import {
   Bandage,
   Scan,
   HeartPulse,
+  Briefcase,
   CheckCircle2,
   ArrowRight,
   Sparkles,
+  Building2,
 } from 'lucide-react';
 
 interface ServicesTabsProps {
@@ -17,12 +19,13 @@ interface ServicesTabsProps {
 }
 
 export default function ServicesTabs({ onOpenCheckIn }: ServicesTabsProps) {
-  const [activeTab, setActiveTab] = useState<'illness' | 'injury' | 'diagnostics' | 'chronic'>('illness');
+  const [activeTab, setActiveTab] = useState<'illness' | 'injury' | 'diagnostics' | 'occupational' | 'chronic'>('illness');
 
   const categories = [
     { id: 'illness', label: 'Everyday Illness', icon: Thermometer, color: 'text-blue-700 bg-blue-100/80' },
     { id: 'injury', label: 'Injuries & Stitches', icon: Bandage, color: 'text-amber-800 bg-amber-100/80' },
     { id: 'diagnostics', label: 'Digital X-Ray & Labs', icon: Scan, color: 'text-emerald-800 bg-emerald-100/80' },
+    { id: 'occupational', label: 'Occupational Health', icon: Briefcase, color: 'text-[#183B2D] bg-[#E6EDE7] border-[#2B5745]/30' },
     { id: 'chronic', label: 'Chronic Flare-Ups', icon: HeartPulse, color: 'text-indigo-800 bg-indigo-100/80' },
   ] as const;
 
@@ -68,6 +71,20 @@ export default function ServicesTabs({ onOpenCheckIn }: ServicesTabsProps) {
       ],
       badge: 'Results in 15 Minutes',
       checkInReason: 'Digital X-Ray & Rapid Lab',
+    },
+    occupational: {
+      title: 'Employer & Occupational Health Services',
+      subtitle: 'Work-injury triage, DOT & non-DOT physicals, drug testing, and OSHA compliance to keep your team healthy and productive.',
+      items: [
+        'Work-Related Injury Care: Prompt triage, stitches, burns, and active Workers’ Comp case coordination',
+        'Pre-Employment & DOT Physicals: Certified medical examiner physicals, fit-for-duty & return-to-work exams',
+        'Certified Drug & Alcohol Screening: Rapid 5/10/12-panel, lab-based urine drug screens & breath alcohol tests',
+        'Occupational Immunizations & Titers: TB skin / QuantiFERON Gold, Hepatitis B, Tdap, and annual Flu clinics',
+        'Respirator & Environmental Screenings: OSHA respirator fit exams, vision screening, and audiometry',
+        'Customized Employer Protocols: Dedicated billing account, paperless records & same-day employee status reporting',
+      ],
+      badge: 'Workforce & OSHA Care',
+      checkInReason: 'Employer / Occupational Health',
     },
     chronic: {
       title: 'Chronic Flare-Up Stabilization',
@@ -184,6 +201,40 @@ export default function ServicesTabs({ onOpenCheckIn }: ServicesTabsProps) {
               </div>
             </motion.div>
           </AnimatePresence>
+        </div>
+
+        {/* Employer Occupational Health Callout Banner (Touch of Olive Green) */}
+        <div className="mt-8 max-w-4xl mx-auto rounded-3xl bg-gradient-to-br from-[#183B2D] to-[#2B5745] text-white p-6 sm:p-8 shadow-xl border border-[#2B5745]/50 flex flex-col sm:flex-row items-center justify-between gap-6">
+          <div className="flex items-start gap-4">
+            <div className="w-12 h-12 rounded-2xl bg-[#E6EDE7] text-[#183B2D] flex items-center justify-center flex-shrink-0 shadow-md">
+              <Building2 className="w-6 h-6" />
+            </div>
+            <div>
+              <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-white/20 text-[#E6EDE7] text-[10px] font-extrabold uppercase tracking-wider mb-1">
+                <span>Howard County &amp; Route 1 Employers</span>
+              </div>
+              <h4 className="font-display font-extrabold text-lg sm:text-xl text-white">
+                Partner with SwiftMed for Workforce Occupational Health
+              </h4>
+              <p className="text-xs sm:text-sm text-[#E6EDE7]/90 mt-1 leading-relaxed max-w-xl">
+                Fast walk-in injury triage, custom employer billing, DOT physicals, and rapid certified drug screenings with zero hassle and prompt return-to-work reporting.
+              </p>
+            </div>
+          </div>
+          <div className="flex-shrink-0 w-full sm:w-auto flex flex-col sm:flex-row gap-2.5">
+            <button
+              onClick={() => onOpenCheckIn('Employer / Occupational Health')}
+              className="px-5 py-3 rounded-xl bg-white text-[#183B2D] hover:bg-[#E6EDE7] font-extrabold text-xs sm:text-sm transition-all shadow-md text-center whitespace-nowrap"
+            >
+              Setup Employer Protocol
+            </button>
+            <a
+              href="tel:4105557943"
+              className="px-4 py-3 rounded-xl bg-white/15 hover:bg-white/25 text-white border border-white/25 font-bold text-xs sm:text-sm transition-all text-center whitespace-nowrap"
+            >
+              Call (410) 555-SWIFT
+            </a>
+          </div>
         </div>
 
       </div>

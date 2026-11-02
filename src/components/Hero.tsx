@@ -86,10 +86,16 @@ export default function Hero({ onOpenCheckIn, waitMinutes, patientsAhead }: Hero
             </span>
           </div>
 
-          <span className="text-xs font-bold text-slate-500 hidden md:inline-flex items-center gap-1.5">
-            <Heart className="w-3.5 h-3.5 text-red-500 fill-red-500" />
-            <span>Care When You Need It. Quality You Can Trust.</span>
-          </span>
+          <div className="hidden md:inline-flex items-center gap-2">
+            <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#E6EDE7] text-[#183B2D] border border-[#2B5745]/30 text-xs font-bold shadow-2xs">
+              <span className="w-2 h-2 rounded-full bg-[#2B5745]"></span>
+              <span>Our Care Team in Signature Olive Scrubs</span>
+            </span>
+            <span className="text-xs font-bold text-slate-500 inline-flex items-center gap-1.5">
+              <Heart className="w-3.5 h-3.5 text-red-500 fill-red-500" />
+              <span>Care When You Need It.</span>
+            </span>
+          </div>
         </div>
 
         {/* Hero Grid: Welcoming Human Slider + Live Queue Card */}
